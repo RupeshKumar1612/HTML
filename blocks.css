@@ -1,0 +1,49 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#one, #two, #three, #four{
+    width:25%;
+    border:5px solid;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: white;
+    text-align: center;
+    font-size: 26px;
+    position: fixed;
+}
+#one {
+    bottom: 0;
+    right: 0;
+    border-color: blue;
+}
+#two {
+    top: 0;
+    right: 0;
+    border-color: green;
+}
+#three {
+    top: 0;
+    left: 0;
+    border-color: orange;
+}
+#four {
+    bottom: 0;
+    left: 0;
+    border-color: yellow;
+}
+#link{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px 0;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 20px 10px;
+    white-space: nowrap;
+}
+#link a{
+    color: white;
+    text-decoration: none;
+}
